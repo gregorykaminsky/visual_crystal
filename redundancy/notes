@@ -1,0 +1,7 @@
+here all the saved files go, 
+
+also some sample xyz and cif files are located in this folder. 
+The initial file that you see loaded is the xyz file. 
+
+obabel mine.cif -oXYZ --fillUC >mine.xyz 
+to generate the full unit cell. 

@@ -1,0 +1,194 @@
+FILENAME:  Saved_files/mirabo_autosave.txt
+
+Notes:
+
+_BEGIN_DATA_FOR  Saved_files/mirabo_autosave.txt
+_total_number_of_cells   2
+_begin_Unit_Cell   0
+chemical_type:                                                                  None_Specified
+active   0
+_begin_geometry
+alpha = 0 deg
+beta = 0 deg
+gamma = 0 deg
+zero_unit =       1.5179     -7.60876      8.38211    point where basis vectors start
+a_unit =      0.273798     -2.63411      10.0917
+b_unit =       6.48509     -9.58098      9.19089
+c_unit =       5.30118     -2.75001     -3.00325
+center =       5.27108     -3.67825      3.94859   center of the unit cell
+isSet: 1     Specifies whether geometry has been set
+polygons: 1     Controls the polygons 
+toggle: 1     Necessary for '(' && ')' commands 
+toggle_f: 0     Specifies the existance of cell boundary lines
+polygon_shade = 0     Specifies the shading on the polygons
+_end_geometry
+_begin_atoms   69
+  0.   O      1.90512     -4.16046      6.30337;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+  1.   O      4.69401     -7.27961      5.89895;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+  2.   O      7.09227     -5.05143     0.288744;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+  3.   O      4.51516     -4.73977       6.9234;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+  4.   O      6.02699     -2.61661     0.973839;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+  5.   O      5.23659     -4.85632      2.20806;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+  6.   O      3.21808     -6.77827      8.07516;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+  7.   O       6.7812     -3.00094       3.5131;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+  8.   O      5.39625     -5.63153      9.28834;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+  9.   O      7.84643     -5.43556      2.82809;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 10.   O      5.57509     -8.17123      8.26394;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 11.   O      5.30553     -2.50004      5.68918;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 12.   O      3.76094     -4.35543      4.38414;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 13.   O       2.6957     -1.92081      5.06916;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 14.  La      2.46373     -6.39411      5.53577;    Color(Red:0.439, Blue:0.831, Green:   1);    Radius      0.682;    Bonds[];
+ 15.  La      2.65947     -4.54487      8.84266;    Color(Red:0.439, Blue:0.831, Green:   1);    Radius      0.682;    Bonds[];
+ 16.  La      5.99103     -5.24091      4.74729;    Color(Red:0.439, Blue:0.831, Green:   1);    Radius      0.682;    Bonds[];
+ 17.  Co      1.51791     -7.60875      8.38211;    Color(Red:0.831, Blue:0.686, Green:0.216);    Radius      0.532;    Bonds[6,32,33,34,35,36,];
+ 18.  Co      3.40955     -5.17936      2.68942;    Color(Red:0.831, Blue:0.686, Green:0.216);    Radius      0.532;    Bonds[5,37,38,39,12,40,];
+ 19.  Co      3.60531     -3.33016      5.99631;    Color(Red:0.831, Blue:0.686, Green:0.216);    Radius      0.532;    Bonds[0,3,11,12,13,24,];
+ 20.  Co      6.93683     -4.02621      1.90094;    Color(Red:0.831, Blue:0.686, Green:0.216);    Radius      0.532;    Bonds[2,4,5,7,9,23,];
+ 21.  Co       5.0452     -6.45564      7.59363;    Color(Red:0.831, Blue:0.686, Green:0.216);    Radius      0.532;    Bonds[1,3,6,8,10,22,];
+ 22.   O      6.87231     -6.13276      7.11223;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 23.   O        8.637     -3.19594       1.5939;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 24.   O      3.44988     -2.30505      7.60846;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 25.  La       6.1868     -3.39178      8.05414;    Color(Red:0.439, Blue:0.831, Green:   1);    Radius      0.682;    Bonds[];
+ 26.  La      9.32252     -5.93697     0.651927;    Color(Red:0.439, Blue:0.831, Green:   1);    Radius      0.682;    Bonds[];
+ 27.  Co      10.2683     -4.72226     -2.19442;    Color(Red:0.831, Blue:0.686, Green:0.216);    Radius      0.532;    Bonds[42,43,44,45,46,47,];
+ 28.  Co     0.273792     -2.63412      10.0917;    Color(Red:0.831, Blue:0.686, Green:0.216);    Radius      0.532;    Bonds[48,49,50,51,52,53,];
+ 29.  Co        5.241     -4.60651      10.9005;    Color(Red:0.831, Blue:0.686, Green:0.216);    Radius      0.532;    Bonds[54,8,55,56,57,58,];
+ 30.  Co      8.37673     -7.15166      3.49827;    Color(Red:0.831, Blue:0.686, Green:0.216);    Radius      0.532;    Bonds[60,61,9,62,63,64,];
+ 31.  Co       7.1326     -2.17709      5.20779;    Color(Red:0.831, Blue:0.686, Green:0.216);    Radius      0.532;    Bonds[65,7,66,11,67,68,];
+ 32.   O      1.67323     -8.63389      6.76991;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 33.   O     0.607907     -6.19895      7.45511;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 34.   O    -0.182256      -8.4392      8.68921;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 35.   O      1.36268     -6.58364      9.99438;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 36.   O      2.42791     -9.01857      9.30927;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 37.   O      3.05819     -6.00328     0.994743;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 38.   O      2.87926     -3.46327      2.01923;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 39.   O      1.58249     -5.50232      3.17081;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 40.   O      3.93986     -6.89546      3.35963;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 41.   O      6.21119     -4.15976     -2.07619;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 42.   O      11.9685     -3.89188     -2.50142;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 43.   O      10.4236     -5.74746     -3.80667;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 44.   O      9.35831      -3.3124     -3.12151;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 45.   O      8.56817     -5.55272     -1.88745;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 46.   O       10.113     -3.69713    -0.582234;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 47.   O      11.1783     -6.13214     -1.26739;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 48.   O      1.97398     -1.80374      9.78462;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 49.   O     0.429081     -3.65925      8.47945;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 50.   O    -0.636288     -1.22429      9.16458;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 51.   O     -1.42634     -3.46464      10.3987;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 52.   O     0.118502     -1.60904      11.7038;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 53.   O      1.18383     -4.04404      11.0188;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 54.   O      6.94114     -3.77602      10.5935;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 55.   O      4.33095     -3.19659      9.97341;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 56.   O      3.54088     -5.43695      11.2075;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 57.   O       5.0857     -3.58127      12.5127;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 58.   O      6.15102      -6.0162      11.8275;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 59.   O      9.93423     -1.15747     0.442174;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 60.   O      10.2038     -6.82861      3.01691;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 61.   O      8.02536     -7.97563      1.80357;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 62.   O      6.54971     -7.47462      3.97961;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 63.   O      8.72809      -6.3277      5.19297;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 64.   O      8.90706     -8.86775      4.16854;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 65.   O      8.95964     -1.85404      4.72642;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 66.   O      6.60233    -0.461006      4.53759;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 67.   O      7.48399     -1.35316      6.90249;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+ 68.   O       7.6629      -3.8931      5.87803;    Color(Red:0.753, Blue:0.753, Green:0.753);    Radius      0.304;    Bonds[];
+_end_atoms
+_start_all_Planes   1
+_begin_Plane  0
+0. _edge         1.2196       -1.41942        7.24534
+1. _edge        8.07834      -0.962357        2.36156
+2. _edge        9.64626       -2.23499       -1.33969
+3. _edge         7.7847       -3.73611       -2.59888
+4. _edge        4.35538       -3.96465      -0.157039
+Color(Red:   0, Blue:   0, Green:   0)
+Active  1
+_end_Plane
+_end_all_Planes
+_end_Unit_Cell   0
+_begin_Unit_Cell   1
+chemical_type:                                                                  None_Specified
+active   1
+_begin_geometry
+alpha = 0 deg
+beta = 0 deg
+gamma = 0 deg
+zero_unit =    -0.334543     -1.00604    -0.786921    point where basis vectors start
+a_unit =       1.67385      2.32223     -4.54266
+b_unit =      -1.40553     0.850615      4.17525
+c_unit =       11.6813     -4.04673      2.94405
+center =       6.14215    0.0660762      1.68178   center of the unit cell
+isSet: 1     Specifies whether geometry has been set
+polygons: 1     Controls the polygons 
+toggle: 1     Necessary for '(' && ')' commands 
+toggle_f: 0     Specifies the existance of cell boundary lines
+polygon_shade = 0     Specifies the shading on the polygons
+_end_geometry
+_begin_atoms   55
+  0.   O      3.57125    -0.271822     -1.54052;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+  1.   O      2.18858    -0.932588      2.37385;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+  2.   O      3.18599      1.09064     0.810528;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+  3.   O     0.746986    0.0840817     0.360377;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+  4.   O      7.17591     0.891509      2.76751;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+  5.   O      1.05872      2.60119      1.40821;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+  6.   O     0.061311     0.578115      2.97134;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+  7.   O       5.7342      1.90794     0.754505;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+  8.   O      5.10845    -0.759365     0.595992;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+  9.   O      6.11937     0.545525     -1.59635;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 10.  La       1.6488      1.57829     -1.32581;    Color(Red:   0, Blue:   1, Green:   0);    Radius      0.682;    Bonds[];
+ 11.  Co     -0.33455     -1.00604      -0.7869;    Color(Red:   0, Blue:   0, Green:   1);    Radius      0.532;    Bonds[3,24,25,26,27,28,];
+ 12.  Co      4.65273      0.81811    -0.393072;    Color(Red:   0, Blue:   0, Green:   1);    Radius      0.532;    Bonds[0,2,7,8,9,15,];
+ 13.  Co      1.62365     0.834318      1.89109;    Color(Red:   0, Blue:   0, Green:   1);    Radius      0.532;    Bonds[1,2,3,5,6,14,];
+ 14.   O      2.50036      1.58477      3.42166;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 15.   O      4.19704      2.39567     -1.38193;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 16.   O      10.0957      1.06473     0.989677;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 17.  La      4.67786      1.56203     -3.60998;    Color(Red:   0, Blue:   1, Green:   0);    Radius      0.682;    Bonds[];
+ 18.  La      3.60696      3.41864       1.3522;    Color(Red:   0, Blue:   1, Green:   0);    Radius      0.682;    Bonds[];
+ 19.  Co     -1.40553     0.850628      4.17526;    Color(Red:   0, Blue:   0, Green:   1);    Radius      0.532;    Bonds[29,30,6,31,32,33,];
+ 20.  Co      1.67385      2.32223     -4.54266;    Color(Red:   0, Blue:   0, Green:   1);    Radius      0.532;    Bonds[34,35,36,37,38,39,];
+ 21.  Co     0.603008      4.17881     0.419418;    Color(Red:   0, Blue:   0, Green:   1);    Radius      0.532;    Bonds[40,5,41,42,43,44,];
+ 22.  Co      7.68185     0.801913     -2.67723;    Color(Red:   0, Blue:   0, Green:   1);    Radius      0.532;    Bonds[46,47,48,49,50,9,];
+ 23.  Co      6.61091      2.65852      2.28496;    Color(Red:   0, Blue:   0, Green:   1);    Radius      0.532;    Bonds[51,4,52,7,53,54,];
+ 24.   O      0.12127     -2.58369     0.201823;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 25.   O      1.13232     -1.27853     -1.99083;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 26.   O     -1.41604     -2.09613     -1.93422;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 27.   O    -0.790323     0.571658     -1.77569;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 28.   O     -1.80141    -0.733554     0.416971;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 29.   O    -0.323953      1.94064      5.32257;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 30.   O    -0.949662    -0.727088      5.16397;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 31.   O     -2.48698    -0.239565      3.02798;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 32.   O     -1.86128      2.42822      3.18651;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 33.   O     -2.87234      1.12313      5.37912;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 34.   O      2.75534       3.4123     -3.39538;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 35.   O      2.12967     0.744603     -3.55403;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 36.   O      3.14076      2.04974     -5.74665;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 37.   O     0.592329      1.23217     -5.69009;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 38.   O      1.21801      3.89987     -5.53146;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 39.   O     0.207029      2.59472      -3.3388;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 40.   O      1.68452      5.26882      1.56678;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 41.   O      2.06981      3.90631    -0.784448;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 42.   O    -0.478653      3.08883    -0.727906;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 43.   O     0.147169       5.7565    -0.569269;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 44.   O    -0.863929      4.45137      1.62334;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 45.   O      4.03748      1.09725      5.55816;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 46.   O      8.55855      1.55249     -1.14682;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 47.   O      8.24684    -0.965126     -2.19463;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 48.   O      9.24432       1.0583     -3.75813;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 49.   O      6.80518    0.0512864     -4.20764;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 50.   O      7.11684      2.56885     -3.15979;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 51.   O      7.48762      3.40909      3.81539;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 52.   O      8.17336      2.91488       1.2041;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 53.   O       6.0459      4.42552      1.80233;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+ 54.   O      5.04843      2.40216      3.36579;    Color(Red:   1, Blue:0.051, Green:0.051);    Radius      0.304;    Bonds[];
+_end_atoms
+_start_all_Planes   1
+_begin_Plane  0
+0. _edge        10.6859      0.0417314        -1.7445
+1. _edge        9.61485        1.89835        3.21769
+2. _edge         1.5985      0.0904048        5.10802
+3. _edge        2.66945        -1.7662       0.145837
+Color(Red:   0, Blue:   0, Green:   0)
+Active  1
+_end_Plane
+_end_all_Planes
+_end_Unit_Cell   1
+_END_DATA_FOR  Saved_files/mirabo_autosave.txt

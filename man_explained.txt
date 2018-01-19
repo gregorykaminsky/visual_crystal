@@ -1,0 +1,118 @@
+The structure of the program. 
+The execution of the program is started in the 'main.cpp' file. 
+
+
+MAIN WINDOW FRAME
+
+MainWindow:
+MainWindow is the qt-based window that holds all the widgets together. The first step of the execution is the creation of the MainWindow. This is done in 'main.cpp' file. The MainWindow has a MainWindow.h header and MainWindow.cpp source file. MainWindow manages four different widgets TextEdit, TextBrowser, LineEdit, MyGlWidget. It also creates the static Singleton object. TextEdit is for taking notes. TextBrowser displays command output. LineEdit is used to enter line commands. MyGlWidget is used to display the 3d structure. Also MyGlWidget can accept keyboard commands when it is active. The active part is accomplished by clicking on it with a mouse if it wasn't active previously. All widgets can be called if pointer to MainWindow exists. For example if pointer 'MainWindow *window' exists then 'window->getMyGlWidget()' gives the programmer access to MyGlWidget. Large collection of other methods exist. 
+
+Some of methods that are defined for MainWindow:
+	-Initialize_Cell() is the method that initializes the information to display in the MyGlWidget. The Singleton object is created that 		 can then be used anywhere in the program. 
+	-void printText(std::string the_string) method that prints information to TextBrowser
+    	
+	-QGLWidget* getMyGLWidget();
+    	-QTextBrowser* getTextBrowser();
+    	-QTextEdit* getTextEdit();
+    	
+	-void closeEvent (QCloseEvent *event) method that triggers when MainWindow is closed, it creates and an 
+	 'Saved_files/mirabo_autosave.txt' text file that saves the last instance of the program. 
+	-other methods haven't been displayed. You can see them by going to MainWindow.cpp or looking up QMainWindow on the qt website: 
+	 http://doc.qt.io/qt-5/qmainwindow.html   
+
+
+
+WIDGETS
+All widgets have a large number of methods that are defined in the qt website. I will list a few useful ones. 
+
+TextEdit:
+Used for taking notes. The information entered into this widget is saved, but is never used. Method in MainWindow called 'getTextEdit()' can be used to return QTextEdit object. 
+
+LineEdit:
+Used to process line commands. When the user types the command into 'LineEdit' widget and presses enter, the 'on_lineEdit_returnPressed()' method is called. It calls a nested method 'line_keypress' - source code inside line_keypress.cpp file. This was done to separate the code and to avoid giant text files. 'line_keypress.cpp' file contains 'line_keypress' method. It processes all string inputs to LineEdit widget. 
+
+TextBrowser:
+Used to display program text output. From MainWindow a method can be called: 'printText(input_string)', this will print out the input_string to a TextBrowser. The input must be of type string. 
+
+MyGlWidget:
+Used to display the graphics. I think it updates and redraws the canvas by itself, but also by calling method 'update()' of MyGlWidget would redraw the canvas by calling method 'paint()' of MyGlWidget. You can update the MyGlWidget manually by calling 'update()', do not call 'paint()'.  
+Can also process keyboard input, one letter at a time. Each time a letter is pressed, method 'opengl_keypress' is called. Source code for method 'opengl_keypress' is in file 'opengl_keypress.cpp'. 
+
+
+
+
+CLASSES:
+
+Singleton:
+Defined as a header called Singleton.h. It holds all the Unit_Cells and information about them. Since it is a static object, it can be used anywhere in the program. Calling 'Singleton& the_s = Singleton::getInstance();' summons the singleton object. Afterwards calling 'the_s.cell' summons the array of Unit_Cells. Calling 'the_s.manage' summons the Manager object. 'the_s.cell[i]' gives access to individual Unit_Cells and the_s.cell[i].backup[j] gives access to individual atoms of each Unit_Cell. For more information look up Unit_Cell.h header file. It is used throughout the program, whenever it is necessary to access the data. For future modification it is not advisable to put any more information on the Singleton class. Any additional information should go to Manager class or be left on the Unit Cell.  
+
+Manager:
+Defined in a header called Manager.h. It is used to manage and keep track of clicked atoms. The variable 'clicked' in atom object is never used anymore. It cannot be removed due to legacy issues. Currently it is not saved, when the user saves everything in a text file. That was done for a reason. Please do not reverse it without careful thought. When the user saves the instance, the Manager class is not saved. 
+
+Stack:
+Defined in a header called Stack.h. It is used to create the 'undo' command. Previous instances of the data are saved on a stack. The maximal length of the stack is 200 long, after that the lowest rugs are erased everytime a new instance is pushed onto a stack.  
+
+Unit_Cell:
+Defined in a header called Unit_Cell.h. Holds all the information about an individual Unit_Cell. Contains a large number of methods to manipulate the Unit_Cell and the atoms within it. For more information see the Unit_Cell.h header file. 
+
+Geometry:
+Defined in a header called Geometry.h. Each Unit_Cell contains one Geometry object. Holds the basis vectors, basis angles and other geometrical information about a given Unit_Cell. 
+
+Plane:
+In Plane.h. Holds the information about an individual planes defined on the Unit_Cell. All the planes are held in 'vector<Plane> plane' variable contained in the Unit_Cell. An individual plane can be created by calling 'makePlane' method. The details are in the opengl_keyboard.cpp. A plane can be created dynamically by selecting 3 atoms and pressing 'p' on the keyboard. There are no limits on the number of planes that can exist simultaneously. Only one plane in a Unit_Cell is active, pressing 'd' on the keyboard deletes this active plane. 
+
+Atom:
+Holds the information about the individual atoms. The 'clicked' variable is no longer used. Vector 'bonds' holds the integer number of the atoms this atom has bonds with. The vector array of atoms 'vector<Atom> backup' is held in Unit_Cell object. Can be manipulated if pointer to Unit_Cell object exists. There are no limits on the number of atoms that can exist. 
+
+
+
+
+
+!!!!!!!THINGS TO WATCH OUT FOR!!!!!!!
+1) There is a boolean variable 'clicked' inside each atom. DO NOT USE IT. Use the information defined in the Manager object. Doing otherwise can cause segmenation faults. 
+2) In many places in the program the variable 'cell' stands for array of Unit_Cells, in other places same variable stands for a single Unit_Cell. That is a design flaw. Something that should be watched for.
+3) Everytime an atom is deleted, the variable 'visible' is rendered false. This can be reversed. But when a file is saved in a text file, all the 'visible == false' atoms are deleted. Method 'reduceCell' defined in 'stray_math_func.cpp' can be used to reduce the Unit_Cell and eliminate the 'visible == false' atoms permanently. 
+4) Watch out for the singleton object, it is static and can appear anywhere.
+5) Large number of methods that are used nowhere, no longer work. They have not been eliminated as of yet. 
+7) Do not tag any more information on the Singleton class. 
+8) The variable 'plane' can stand for array of Planes, in other places same variable stands for a single Plane. That is a design flaw. Another mistake. 
+
+
+MODIFYING THE SOURCE CODE:
+If you wish to modify the source code:
+First check that everything runs, try to run the executable.
+
+Next install the Qt package along with its editor
+Install freeGlut package. 
+After that open the project using Qt, go to current Mirabo.pro and open it, this should open all the source files you can look at them. 
+
+The program is controlled mostly through keyboard. If you wish to see all the possible keyboard commands, go to the file 'opengl_keypress.cpp' scroll down and you'll see all the commands in the keyboard implemented. Some no longer work. Some will cause the system to crash if called incorrectly. E-mail me with any questions. 
+
+There is also a way to issue commands through the Line_Edit. To see all the commands available there, go to 'line_keypress.cpp' scroll down. Most of the commands allow you to open the file or import the file or to save a file
+
+ 
+
+NOTES ON QT:
+To modify the source code, you need to work in the Qt environment. Download Qt latest version. Open Qt project in the qt environment. 
+Go to: 
+-Projects, check the box 'run in terminal'. This enables you to use 'cout' and 'cin' to quickly see the terminal outputs. 
+-Uncheck the box 'shadow build'
+
+Go to:
+-Projects, set the working directory to the directory the source files are at (or because that is where all the rest of the important .txt files exist too you can change it later if you wish. 
+
+Go to: 
+-Projects, uncheck 'shadow build'
+
+Go to:
+-Projects, to Desktop (Run) 
+check 'run in terminal'
+
+
+
+	
+
+
+
+
+ 
