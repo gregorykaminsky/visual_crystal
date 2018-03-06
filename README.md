@@ -9,13 +9,13 @@ To understand the structure of the program, got to "man_explained.txt" file.
 file.
 - To see all the possible line commands, got to "man_commands.txt" file or "line_keypress.cpp" source code file. 
 
-If the openGL widget (in my program known as MyGLWidget) is active, each key on the keyboard is a command. To know how each command operates, go to line input widget (LineEdit widget) and type: man <key> 
+If the openGL widget (in my program known as MyGLWidget) is active, each key on the keyboard is a command. To know how each command operates, go to line input widget (LineEdit widget) and type: man *key* 
 For example:
 man k
 Would print out the results of such a command, alternatively looking at the file "man_commands.txt" has all the possible OpenGL widget commands that my program accepts.
 To execute this command, click on the MyGlWidget (openGL widget) and press 'k' key. 
 
-In the LineEdit widget to know how each command operates type: man <line_command>, alternatively looking at the file "man_commands.txt" does the trick too. 
+In the LineEdit widget to know how each command operates type: man *line_command* , alternatively looking at the file "man_commands.txt" does the trick too. 
 For example typing into LineEdit widget:
 man invert
 Would explain how align command works. 
