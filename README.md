@@ -1,6 +1,13 @@
-To see all the possible keypress commands in openGL widget, got to "man_commands.txt" file or "opengl_keypress.cpp" source code file.
-To see all the possible line commands, got to "man_commands.txt" file or "line_keypress.cpp" source code file. 
+# MIRABO 
+A program to display and manipulate crystalline compounds. Accepts all *.cif and *.xyz file formats, allows for manipulation of 
+crystal Unit Cells with a keyboard or a mouse. When first launched, loads a sample LCO.cif file, which displays a single 
+Unit Cell of Lanthanum Cobalt Oxide. Later the program would load the last file the user worked on - saved in file mirabo_autosave.txt. 
 To understand the structure of the program, got to "man_explained.txt" file. 
+
+## Keyboard Commands
+- To see all the possible keypress commands in openGL widget, got to "man_commands.txt" file or "opengl_keypress.cpp" source code
+file.
+- To see all the possible line commands, got to "man_commands.txt" file or "line_keypress.cpp" source code file. 
 
 If the openGL widget (in my program known as MyGLWidget) is active, each key on the keyboard is a command. To know how each command operates, go to line input widget (LineEdit widget) and type: man <key> 
 For example:
