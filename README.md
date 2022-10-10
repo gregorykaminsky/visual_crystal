@@ -4,8 +4,12 @@ crystal Unit Cells with a keyboard or a mouse. When first launched, loads a samp
 Unit Cell of Lanthanum Cobalt Oxide. Later the program would load the last file the user worked on - saved in file mirabo_autosave.txt. 
 To understand the structure of the program, go to "man_explained.txt" file. 
 
-Image of the structure of salt NaCl created by the program:
-![Alt text](pics/salt.png?raw=true "NaCl")
+Image of the structure of salt NaCl created by the program: <br>
+![Alt text](pics/salt.png?raw=true "NaCl") <br>
+Image of the interface between Graphite and SiO<sub>2</sub> <br>
+![Alt text](pics/GraphiteSiO2comp.png?raw=true "Graphite/SiO") <br>
+Image of the single subsection of LaCoO<sub>3</sub> of 8 octahedra <br>
+![Alt text](pics/octahedra11.png?raw=true "octahedra") <br>
 
 
 ## Keyboard Commands
